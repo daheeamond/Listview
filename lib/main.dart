@@ -55,7 +55,7 @@ ListTile _tile(String title, String subtitle) => ListTile(
   leading:_userImage(images[Random().nextInt(images.length)])
 );
 ClipRRect _userImage(String url) => ClipRRect(
-    borderRadius: BorderRadius.circular(150),
+    borderRadius: BorderRadius.circular(140),
     child:Image.network(url),
 );
 final images = [
